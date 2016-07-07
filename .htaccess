@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ([a-z-_0-9]+).([a-z]+)$ public/html/$1.$2 [NC,QSA,L]
+RewriteRule js/([a-z-_0-9]+).([a-z]+)$ public/js/$1.$2 [NC,QSA,L]
+RewriteRule css/([a-z-_0-9]+).([a-z]+)$ public/css/$1.$2 [NC,QSA,L]
+RewriteRule img/([a-z-_0-9]+).([a-z]+)$ public/img/$1.$2 [NC,QSA,L]
+RewriteRule fonts/([a-z-_0-9]+).([a-z]+)$ public/img/$1.$2 [NC,QSA,L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php

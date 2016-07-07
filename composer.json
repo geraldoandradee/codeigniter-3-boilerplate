@@ -1,0 +1,21 @@
+{
+  "name": "geraldoandradee/candidato",
+  "description": "Site de candidato padrão",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Geraldo Andrade",
+      "email": "geraldo@geraldoandrade.com"
+    }
+  ],
+  "require": {
+    "codeigniter/framework": "3.0.6",
+    "monolog/monolog": "1.19.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  }
+}
