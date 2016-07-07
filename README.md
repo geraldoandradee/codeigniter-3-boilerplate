@@ -1,1 +1,1 @@
-# CodeIgniter Boilerplate
+# CodeIgniter 3 Boilerplate
